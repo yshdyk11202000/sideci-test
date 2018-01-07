@@ -3,5 +3,9 @@ package main
 import "fmt"
 
 func main() {
-fmt.Println("vim-go")
+	fmt.Println(Hoge())
+}
+
+func Hoge() string {
+	return "Hoge"
 }
